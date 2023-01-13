@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={style.header}>
       <Link to="/"><h1>Budget App</h1></Link>
-      <Link className="btn" to="/new">New Transactions</Link>
+      <Link className="btn" to="/transactions/new">New Transactions</Link>
     </header>
   );
 }
